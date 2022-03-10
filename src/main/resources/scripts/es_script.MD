@@ -1,6 +1,7 @@
 
-## version:5.1.2
+## version:5.1.2 
 ## /_scripts/painless/script_name
+## painless
 
 ```json
 {
