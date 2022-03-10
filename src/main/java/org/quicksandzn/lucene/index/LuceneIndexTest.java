@@ -21,17 +21,6 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
 /**
- * tips:
- *  以下是我把Elasticsearch的索引文件
- *  Elasticsearch 默认不会开启Field.Store.YES 会把数据存到_source里面 _source是Elasticsearch自定义的字段
- *  这点和Solr不同 Solr在schema.xml定义的时候会指定是否索引 是否存储
- *  Elasticsearch也可以自定义设置是否存储
- *   "properties": {
- *   "name": {
- *     "type": "keyword",
- *     "store": true
- *   }
- *  }
  *
  * @author quicksand - 2022/3/10
  */
