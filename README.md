@@ -15,6 +15,4 @@
     ```
 - Elasticsearch 默认不会开启Field.Store.YES 会把数据存到_source里面 _source是Elasticsearch自定义的字段
 - 这点和Solr不同 Solr在schema.xml定义的时候会指定是否索引 是否存储
-- 其实通过Luke也可以查看出字段是否存储
-- ![img.png](https://github.com/quicksandznzn/lucene-notes/blob/main/img.png)
-
+- 其实通过Luke也可以查看出字段是否存储 ~
